@@ -1,0 +1,82 @@
+<html>
+
+    <head>
+        <title>Hallmark Bingo</title>
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="css/global.css">
+        <script src="scripts/generator.js"></script>
+    </head>
+
+    <body onload="UpdateTable()">
+
+        <!-- Header of the Page -->
+        <header class="centered">
+            <h1 class="title">Hallmark Christmas Movie Bingo Generator</h1>
+            <div class="generate_button">
+                <button onclick="UpdateTable()">Generate New Bingo Card</button>
+            </div>
+        </header>
+
+        <!-- Body of the Page -->
+        <section class="centered">
+            
+            <div class="garland">
+                <img class="rotate90cw" src="images/garland.png"/>
+            </div>
+
+            <table class="bingo_card" border="1">
+                <tbody>
+                    <tr>
+                        <td id="cell00">&nbsp;</td>
+                        <td id="cell01">&nbsp;</td>
+                        <td id="cell02">&nbsp;</td>
+                        <td id="cell03">&nbsp;</td>
+                        <td id="cell04">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td id="cell10">&nbsp;</td>
+                        <td id="cell11">&nbsp;</td>
+                        <td id="cell12">&nbsp;</td>
+                        <td id="cell13">&nbsp;</td>
+                        <td id="cell14">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td id="cell20">&nbsp;</td>
+                        <td id="cell21">&nbsp;</td>
+                        <td id="cell22" class="free_space">&nbsp;</td>
+                        <td id="cell23">&nbsp;</td>
+                        <td id="cell24">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td id="cell30">&nbsp;</td>
+                        <td id="cell31">&nbsp;</td>
+                        <td id="cell32">&nbsp;</td>
+                        <td id="cell33">&nbsp;</td>
+                        <td id="cell34">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td id="cell40">&nbsp;</td>
+                        <td id="cell41">&nbsp;</td>
+                        <td id="cell42">&nbsp;</td>
+                        <td id="cell43">&nbsp;</td>
+                        <td id="cell44">&nbsp;</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="garland">
+                <img class="rotate90ccw" src="images/garland.png"/>
+            </div>
+
+        </section>
+        
+        <!-- Footer of the Page -->
+        <footer class=centered>
+            <hr/>
+            <hr/>
+            <p class="footer_text">Good luck and Happy Holidays!</p>
+        </footer>
+
+    </body>    
+
+</html>
